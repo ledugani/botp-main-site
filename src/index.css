@@ -1,13 +1,27 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Cantique';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+.spirit {
+  font-family: 'Absinthe',
     monospace;
+  font-size: 100px;
+}
+
+@font-face {
+  font-family: 'Cantique';
+  src: local('Cantique'), url(fonts/Cantique-Normal.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Le Murmure';
+  src: local('Le Murmure'), url(fonts/le-murmure.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Absinthe';
+  src: local('Absinthe'), url(fonts/AbsinthelyricPrintRegular-1Vg4.ttf) format('truetype');
 }
