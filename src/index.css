@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Cantique';
+  background-color: #282C34;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -9,6 +10,7 @@ body {
   font-family: 'Absinthe',
     monospace;
   font-size: 100px;
+  margin: 0 0 100px 0;
 }
 
 @font-face {

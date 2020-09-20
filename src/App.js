@@ -19,6 +19,7 @@ function App() {
         >
           data consumption
         </a>
+        {console.log("00110001 00110010 00101110 00110001 00111000 00101110 00110010 00110000")}
       </header>
     </div>
   );
