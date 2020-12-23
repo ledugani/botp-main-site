@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './components/header/index';
+import Bnt from './components/bestnewtunes/index';
+import Reviews from './components/reviews/index';
 
 export default function Home() {
 	return (
 		<div className="full">
-			<div>Header</div>
-			<div>Best New Tunes</div>
-			<div>Reviews</div>
+			<Header />
+			<Bnt />
+			<Reviews />
 		</div>
 	);
 }
